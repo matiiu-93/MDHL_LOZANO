@@ -3,12 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+main{
+    background-image: url(./assets/background-hockey.jpg);
+}
 header {
-    height: 50vh;
+    height: 60vh;
     background-image: url(./assets/design1_image1.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
+    background-position: center;
 
+    
 }
 h1 {
     font-size: 10vh;
@@ -22,22 +27,45 @@ h4 {
 }
 main section {
     display: inline-block;
+    
 }
 .logo {
     width: 20vh;
     position: relative;
     top: 30vh; left: 180vh;
 }
-nav a{
+a[href="#"] {
+    color: black;
+}
+nav a{ 
     display:block;
     margin: 20px;
+    font-size: 1.3rem;
+    width:max-content;
+    background-color: blueviolet;
+    border: 2px solid;
+    border-color: black;
+    padding: 0.5rem;
+    border-radius: 1rem;
 }
-.info{
-    position: relative;
-    top: -20vh; left:20vh
+nav {
+    
+    margin:2rem;
+    margin-right: 2rem;
 }
 section{
     display:inline-block;
+}
+.contenido {
+    display: flex;  
+    gap: 1rem 
+}
+.info {
+    font-size:2rem;
+    margin:1.5rem;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: solid;
+    
 }
 
 
