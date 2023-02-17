@@ -1,0 +1,73 @@
+.links {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.links a:hover{
+    transform: scale(1.4) translate(10%, 10px);
+    transition: 1s;
+}
+.links a {
+    width: 7rem;
+    height: 4rem;
+    text-align: center;
+}
+div>h1, div>h2 {
+    align-self: center;
+    text-align: center;
+}
+div>h2{
+    align-self: center;
+    text-align: center;
+}
+h3{
+    margin: 1rem;
+}
+ol{
+    margin:3rem
+}
+
+.regulations{
+    background-color: rgba(16, 16, 43, 0.685);
+    color: rgb(202, 202, 24);
+    padding: 1rem;
+    box-shadow: 3px 3px rgba(47, 13, 92, 0.473);
+    border-radius: 1rem;
+}
+.regulations>ol{
+    padding: 1rem;
+    border-style: dotted ;
+    border: 3px solid rgba(6, 6, 46, 0.616);
+    box-shadow: 2px 2px rgb(2, 2, 12);
+    border-radius: 1rem;
+    padding: 3rem;
+}
+ul>li{
+    padding: 1rem;
+    border-style: dotted ;
+    border: 3px solid rgba(6, 6, 46, 0.616);
+    box-shadow: 2px 2px rgb(2, 2, 12);
+    border-radius: 1rem;
+    padding: 3rem;
+}
+p{
+    background-color: rgba(16, 16, 43, 0.685);
+    color: rgb(202, 202, 24);
+    padding: 1rem;
+    box-shadow: 3px 3px rgba(47, 13, 92, 0.473);
+    border-radius: 1rem;
+}
+.pie{
+        height: 5vh;
+        background-color: #F99417;
+        color: #413f42;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer>p{
+        font-family: 'Rock Salt', cursive;
+        font-weight: bolder;
+    }
+

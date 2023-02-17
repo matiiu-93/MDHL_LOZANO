@@ -1,0 +1,121 @@
+* { 
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    background-image: url(../img/background-hockey.jpg);
+}
+main{
+    background-image: url(../img/background-hockey.jpg);
+    
+}
+header {
+    display: flex;
+    height: 50vh;
+    margin: 3vh ;
+    background-image: url(../img/design1_image1.jpg);
+    border: solid 2px ;
+    border-color: rgb(6, 6, 7);
+    background-size: cover;
+    box-shadow:3px 3px rgba(0, 0, 0, 0.774);
+    border-radius: 1rem;
+    margin-right: 5rem;
+    margin-left: 5rem;    
+} 
+
+
+.logo {
+    height: 20vh;
+    top: 30vw; left: 180vw;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10rem;
+    align-self: flex-end;
+}
+h1 {
+    flex-grow: 2;
+    display: block;
+    padding-left: 1rem;
+    font-size: 3rem;
+    color: rgb(7, 8, 29);
+    text-shadow: 2px 2px rgb(187, 187, 22);
+    
+}
+h4 {
+    background-color: black;
+    color: white;
+    font-size: 5vh;
+    text-align: center;
+}
+.info {
+    font-size:2rem;
+    margin:1.5rem;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: solid;
+    background-color: rgba(41, 41, 122, 0.63);
+    border-radius: 1rem;
+    
+}
+h5{
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(191, 206, 55);
+}
+h5,p {
+    margin: 1rem;
+}
+p{
+    font-weight: bolder;
+    color: rgb(17, 30, 34);
+}
+a[href="#"] {
+    color: black;
+}
+nav a{ 
+    display:block;
+    margin: 20px;
+    font-size: 1.3rem;
+    width:max-content;
+    color: rgb(187, 187, 22);
+    background-color: rgb(46, 96, 109);
+    border: 2px solid;
+    border-color: black;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.774);
+}
+a:hover{
+transform: scale(1.4) translate(30px);
+    transition: 1s;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    margin:1.5rem;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: .5rem;
+}
+.contenido {
+    display: flex;  
+    gap: 1rem 
+}
+.pie{
+    height: 5vh;
+    background-color: #F99417;
+    color: #413f42;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer>p{
+    font-family: 'Rock Salt', cursive;
+    font-weight: bolder;
+}
