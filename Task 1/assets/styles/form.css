@@ -4,4 +4,75 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body{
+    background-image: url(../img/background-hockey.jpg);
+}
+.links {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav a{ 
+    display:block;
+    margin: 20px;
+    font-size: 1.3rem;
+    width:max-content;
+    color: rgb(187, 187, 22);
+    background-color: rgb(46, 96, 109);
+    border: 2px solid;
+    border-color: black;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.774);
+}
+a[href="#"] {
+    color: black;
+    background: rgb(187, 187, 22);
+}
+a:hover{
+transform: scale(1.4) translate(30px);
+    transition: 1s;
+}
+.links a:hover{
+    transform: scale(1.4) translate(10%, 10px);
+    transition: 1s;
+}
+.links a {
+    width: 7rem;
+    height: 4rem;
+    text-align: center;
+}
+h1{
+    flex-grow: 2;
+    display: block;
+    padding-left: 1rem;
+    font-size: 3rem;
+}
+.formulario {
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: rgba(11, 11, 15, 0.801);
+    color: rgb(187, 187, 22);
+    width: 80vw;
 
+}
+label {
+    display: inline-block;
+}
+fieldset{
+    border-radius: .5rem;
+}
+fieldset div{
+    display: inline-block;
+}
+.field1{
+    display: flex;
+}
+.lastname, .city, .birth{
+    justify-content: end;
+}

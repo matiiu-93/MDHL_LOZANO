@@ -6,9 +6,14 @@
 }
 #tabla{
     background-image: url(..//img/hockey-stadium-background-free-vector.jpg);
-
+    margin: 2rem;
+    background-size: cover;
+    background-position-x: center;
 }
-
+nav{
+    display: flex;
+    flex-wrap: wrap;
+}
 tbody tr:nth-child(even) {
     background-color: rgba(224, 110, 95, 0.767);
 }
@@ -130,6 +135,5 @@ h2 {
 iframe{
     margin:1rem;
     border-radius: 1rem;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.582);
-
+    box-shadow: 4px 4px 4px 4px rgba(107, 7, 7, 0.582);
 }
